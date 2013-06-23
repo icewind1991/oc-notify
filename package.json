@@ -1,0 +1,12 @@
+{
+	"name"        : "oc-notify",
+	"description": "A daemon that checks for changes made in the data directory of an ownCloud installation",
+	"version"     : "0.0.1",
+	"private"     : true,
+	"scripts"     : {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"node-watch": "*"
+	}
+}
